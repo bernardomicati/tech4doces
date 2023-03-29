@@ -1,13 +1,9 @@
 package br.com.tech4me.pedidos.shared;
 
-import jakarta.validation.constraints.Positive;
-
 public class PedidoCompletoDto {
     private String id;
     private String nomeCliente;
     private String idDoce;
-    @Positive
-    private Double valor;
 
     public String getId() {
         return id;
@@ -26,11 +22,5 @@ public class PedidoCompletoDto {
     }
     public void setIdDoce(String idDoce) {
         this.idDoce = idDoce;
-    }
-    public Double getValor() {
-        return valor;
-    }
-    public void setValor(Double valor) {
-        this.valor = valor;
     }
 }

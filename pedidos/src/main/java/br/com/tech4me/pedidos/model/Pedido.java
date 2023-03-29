@@ -9,7 +9,6 @@ public class Pedido {
     private String id;
     private String nomeCliente;
     private String idDoce;
-    private Double valor;
 
     public String getId() {
         return id;
@@ -28,12 +27,6 @@ public class Pedido {
     }
     public void setIdDoce(String idDoce) {
         this.idDoce = idDoce;
-    }
-    public double getValor() {
-        return valor;
-    }
-    public void setValor(double valor) {
-        this.valor = valor;
     }
 
 }

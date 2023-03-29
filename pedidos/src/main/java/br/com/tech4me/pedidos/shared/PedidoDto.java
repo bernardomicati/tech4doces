@@ -4,7 +4,6 @@ package br.com.tech4me.pedidos.shared;
 
     private String nomeCliente;
     private String idDoce;
-    private Double valor;
 
     public String getNomeCliente() {
         return nomeCliente;
@@ -17,12 +16,6 @@ package br.com.tech4me.pedidos.shared;
     }
     public void setIdDoce(String idDoce) {
         this.idDoce = idDoce;
-    }
-    public Double getValor() {
-        return valor;
-    }
-    public void setValor(Double valor) {
-        this.valor = valor;
     }
     
 }
